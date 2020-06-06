@@ -1,4 +1,4 @@
-# 📦 millimetr-default
+# 🔨 millimetr-default
 
 **A basic millimetr starting template**
 
