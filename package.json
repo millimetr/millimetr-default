@@ -1,8 +1,9 @@
 {
-  "name": "millimetr",
+  "name": "millimetr-default",
   "license": "MIT",
   "scripts": {
-    "start": "millimetr develop"
+    "start": "millimetr develop",
+    "build": "millimetr build",
   },
   "devDependencies": {
     "@millimetr/cli": "^1.0.3",

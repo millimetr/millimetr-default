@@ -34,16 +34,27 @@ const createConfig = async () => ({
      * additional data that should be passed to the template.
      */
     routes: [
+        /**
+         * Illustrates how hardcoded data can be passed to a route template.
+         */
         {
             url: '/',
             template: './src/views/homepage.ejs',
             dogs: ['Husky', 'Poodle', 'Beagle', 'Maltese']
         },
+
+        /**
+         * Illustrates how dynamically generated data can be passed to a route template.
+         */
         {
             url: '/dynamic',
             template: './src/views/dynamic.ejs',
             timestamp: new Date().getTime(),
         },
+
+        /**
+         * Illustrates how remote data can be fetched and passed to a route template.
+         */
         {
             url: '/remote',
             template: './src/views/remote.ejs',
