@@ -3,7 +3,7 @@
   "license": "MIT",
   "scripts": {
     "start": "millimetr develop",
-    "build": "millimetr build",
+    "build": "millimetr build"
   },
   "devDependencies": {
     "@millimetr/cli": "^1.0.3",
