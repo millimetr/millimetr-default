@@ -1,0 +1,11 @@
+{
+  "name": "millimetr",
+  "license": "MIT",
+  "scripts": {
+    "start": "millimetr develop"
+  },
+  "devDependencies": {
+    "@millimetr/cli": "^1.0.3",
+    "axios": "^0.19.2"
+  }
+}

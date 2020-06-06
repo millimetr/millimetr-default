@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  <%- include('../includes/head', { title: 'Homepage', description: 'This is page is created from hardcoded data.'}) %>
+
+  <body>
+    <h1>Homepage</h1>
+
+    <ul>
+        <% dogs.forEach((dogName) => { %>
+          <li>
+            <%= dogName %>
+          </li>
+        <% }); %>
+    </ul>
+  </body>
+</html>

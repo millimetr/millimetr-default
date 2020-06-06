@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  <%- include('../includes/head', { title: 'Remote', description: 'This is page is created from remote data.'}) %>
+
+  <body>
+    <h1>Remote</h1>
+
+    <ul>
+      <% data.forEach(({ title }) => { %>
+        <li>
+          <%= title %>
+        </li>
+      <% }); %>
+    </ul>
+  </body>
+</html>
