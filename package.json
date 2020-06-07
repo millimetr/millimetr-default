@@ -6,7 +6,6 @@
     "build": "millimetr build"
   },
   "devDependencies": {
-    "@millimetr/cli": "^1.0.3",
-    "axios": "^0.19.2"
+    "@millimetr/cli": "^1.1.4"
   }
 }

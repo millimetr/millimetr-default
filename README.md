@@ -1,6 +1,12 @@
 # 🔨 millimetr-default
 
-**A basic millimetr starting template**
+This is a basic millimetr starting template.
+
+It intentionally has as little configuration and integrations as possible - allowing you to configure it how you want from the ground up.
+
+-📄 **That HTML templates are written in [EJS](https://ejs.co/)**
+-🤖 **The `millimetr.config.js` file is central to this starter.**
+-👓 **No hidden behaviour, everything is documented via `millimetr.config.js` file.**
 
 ## Getting started
 
@@ -8,34 +14,11 @@
 2. `npm install`
 3. `npm start`
 
-## Routes
+## Example routes
 
 This starting template starts with three routes:
 
-- `/`: Illustrates how hardcoded values can be passed to route templates
-- `/dynamic`: Illustrates how dynamically generated values cna be passed to route templates
-- `/remote`: Illustrates how remote data can be fetched and passed to route templates
-
-These routes are configured in the `millemetr.config.js` as follows:
-
-```js
-const createConfig = async () => ({ {
-    routes: [
-        {
-            url: '/',
-            template: './src/views/homepage.ejs',
-            dogs: ['Husky', 'Poodle', 'Beagle', 'Maltese']
-        },
-        {
-            url: '/dynamic',
-            template: './src/views/dynamic.ejs',
-            timestamp: new Date().getTime(),
-        },
-        {
-            url: '/remote',
-            template: './src/views/remote.ejs',
-            data: (await axios.get('https://jsonplaceholder.typicode.com/posts')).data,
-        },
-    ],
-}
-```
+- `/`: The basic landing-route.
+- `/hardcoded`: Illustrates how hardcoded values can be passed to route templates.
+- `/dynamic`: Illustrates how dynamically generated values can be passed to route templates.
+- `/remote`: Illustrates how remote data can be fetched and passed to route templates.

@@ -11,19 +11,19 @@
         <h1><%= title %></h1>
 
         <p>
-          The following is pulled live from the web (via <code class="code">https://jsonplaceholder.typicode.com/posts</code>) during the build process:
+          The following is pulled directly from the <code class="code">src/data/starters.json</code> file during the build process.
         </p>
 
         <ul class="grid">
-          <% posts.data.forEach(({ title, body }) => { %>
-            <li class="grid__item">
-              <span class="card">
-                <h3 class="card__title"><%= title %></h3>
+            <% starters.forEach(({ name, icon, description, url }) => { %>
+              <li class="grid__item">
+                <a class="card card_link" href="<%= url %>" target="_blank">
+                  <h3 class="card__title"><%= icon %> <%= name %></h3>
 
-                <p class="card__description"><%= body %></p>
-              </a>
-            </li>
-          <% }); %>
+                  <p class="card__description"><%= description %></p>
+                </a>
+              </li>
+            <% }); %>
         </ul>
       </main>
 
