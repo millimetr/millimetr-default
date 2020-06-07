@@ -4,6 +4,8 @@ This is a basic millimetr starting template.
 
 It intentionally has as little configuration and integrations as possible - allowing you to configure it how you want from the ground up. See the template in action at [https://millimetr-default.netlify.app](https://millimetr-default.netlify.app) 
 
+## Principles
+
 - 📄 **That HTML templates are written in [EJS](https://ejs.co/)**
 - 🤖 **The `millimetr.config.js` file is central to this starter.**
 - 👓 **No hidden behaviour, everything is documented via `millimetr.config.js` file.**
