@@ -6,7 +6,7 @@ It intentionally has as little configuration and integrations as possible - allo
 
 ## Principles
 
-- 📄 **That HTML templates are written in [EJS](https://ejs.co/)**
+- 📄 **HTML templates are written in [EJS](https://ejs.co/)**
 - 🤖 **The `millimetr.config.js` file is central to this starter.**
 - 👓 **No hidden behaviour, everything is documented via `millimetr.config.js` file.**
 
