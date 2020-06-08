@@ -17,6 +17,7 @@
             <% routes.forEach(({ url, title }) => { %>
                 <li>
                     <<%= url === currentUrl ? 'span' : 'a' %>
+                        rel="prerender"
                         class="menu__item <%= url === currentUrl ? 'menu__item_disabled' : '' %>"
                         <%= url === currentUrl ? '' : `href=${url}` %>
                     >
