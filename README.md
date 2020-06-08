@@ -4,6 +4,8 @@ This is a basic millimetr starting template.
 
 It intentionally has as little configuration and integrations as possible - allowing you to configure it how you want from the ground up. See the template in action at [https://millimetr-default.netlify.app](https://millimetr-default.netlify.app) 
 
+_Note that the CSS selectors in this demo follow the [BEM convention](https://en.bem.info/methodology/css/#selectors). However you are welcome to restructure them according to your preferences._
+
 ## Getting started
 
 1. `git clone https://github.com/millimetr/millimetr-default.git`
